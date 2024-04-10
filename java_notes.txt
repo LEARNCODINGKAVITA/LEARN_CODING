@@ -1,0 +1,208 @@
+
+
+Object Oriented Programming : it is an approach that provides a way of modularizing programming, that which can be used to create small partition memory area for both data and objects, which are to be used as templates for creating copies of such modules on demand. 
+
+Object : An object is a real world entity, that which possess 3 characterstics known as
+
+	(i) State
+
+	(ii) Behaviour
+
+	(iii) Identity 
+
+
+
+OOPS features : 
+
+	(i) Encapsulation : Wrapping up of data and functions into a single unit known as enacpsulation.
+
+	(ii) Abstraction : Hiding the irrelevant details of an object, that do not contribute to its essential 					characterstics known as abstraction.
+
+		*** Encapsulation focuses on showing the relevant details, where abstraction focuses on hiding the 
+			irrelevant details ***
+
+	(iii) Inheritance : Deriving a new entity from already existing entity known as inheritance, through inheritance
+				we can reduce the size of the program. 
+
+	 (iv) Polymorphism : The ability to take more than one form known as polymorphism. 
+
+
+class : A class is a template or blueprint, that which contains combination of data memebrs and member functions.  Members of the class can be accessable by using instance of the class. 
+
+class class_name 
+{
+    data members;
+    member functions;
+}
+
+Why Java : 
+__________
+
+	(i) Platform Independence : Write Once and run anywhere. 
+
+	(ii) Console/Windows/Web/Service Oriented 
+
+       (iii) Packages : Contains group of related classes and interfaces, that which belongs to one common group, if you 			want to overcome the naming conflicts between classes then we need the help of packages.
+
+
+Java Features : 
+________________
+
+
+	 (i) Simple : Java uses simple C/C++ syntaxes, as a programmer no need to take care of internal details like 
+			memory management etc... as how much memory allocated to run the program, the same amount of 
+			memory will be reallocated automatically. 
+
+	(ii) Object Oriented : Java supports all object oriented programming features. 
+
+       (iii) Compiled and Interpreted : Java programs are compiled first, during compilation java code will be converted 	into bytecode, then .class file will be created. In interpretation it reads the bytecode line by line and executes. 
+
+	(iv) Portable : Ability to run the program without changing the source code, java programs are programs that can run 		on any env. without changing the source code.
+
+	 (v) Securable : Java implements various levels of security as 
+
+		(a) Compiler Level Security
+
+		(b) ByteCode Level Security 
+
+		(c) Class Loader Level Security 
+
+	(vi) Distributed : By using java, we can implement all distributed and robust applications. 
+
+
+Java Architecture : 
+___________________
+
+	(i) Java Program : Java code, that which stores with extension .java
+
+	(ii) Java Class : Java code after compilation its converted into bytecode, then .class file will be created. 
+
+	(iii) JVM (Java Virtual Machine) It contains various components as
+
+		(a) Class Loader : Used to load the classes that which are required to run the program.  There are 2 types of classes known as 
+
+			(i) Primordial Class Loader : Used to load all system classes which are reqd to run the program. 
+
+			(ii) Class Loader Objects : Used to load all user-defined classes. 
+
+
+		(b) JIT Compiler : Converts bytecode into CPU specific format. 
+
+		(c) Execution Manager : Contains queue of programs which are ready to run, where we can execute the program.
+
+	*** Before execution it needs to undergone the security authentication ***
+
+		
+
+	 (iv) Java API : It contains runtime env. that which allows you to run the java program. It contains 2 basic 				components as (JDK, JRE) 
+
+
+Data Types : 
+___________
+
+There are various types of data types as
+
+	(i) Value types : int, byte, short, float, double, char, boolean 
+
+	(ii) Reference Types : String, Object, and User-defined types 
+
+
+*** Value types will be stored in Stack memory and refernece types will be stored in HEAP memory ***
+
+Access Modifiers : 
+___________________
+
+	(i) private : Allows you to access members within current class. 
+
+	(ii) public : Allows you to access members in entire application. 
+
+	(iii) protected : Allows you to access members within current/derived class. 
+
+	(iii) friendly : By default java possess friendly access modifier, allows you to access members within all classes
+			  of current package. 
+
+
+System.out.println() : Used to display any value or message. 
+
+	System -> class
+
+	out -> Console
+
+	println() -> Method.
+
+System.out.println("Welcome to Java Programming...");
+
+You can define method main() as 
+
+public static void main(String[] args) {
+...
+...
+...
+}
+
+main() method must be static as no class object supposed to call method main().
+
+Operators : 
+____________
+
+1) Arithmetic Operators
+
+	+
+
+	-
+
+	*
+
+	/
+
+	%
+
+2) Relational Operators :
+
+	> 
+
+	>= 
+
+	< 
+
+	<=
+	
+	==
+
+	!=
+
+3) Logical Operators : 
+
+&&
+
+|| 
+
+!
+
+4) Increment/Decrement operators : ++ and --
+
+	There are
+
+	pre-increment (++x) : In pre-increment at first it increments the value and updated value will be assigned in same statement.
+
+	post-increment (x++) : In post-increment first it assigns old value and then it increments, then the updated value comes into picture in next statement or next operator. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
