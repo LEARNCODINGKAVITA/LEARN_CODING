@@ -1,0 +1,44 @@
+DML 
+
+	INSERT : used to add new records to the table.
+
+Insert into Table_name(field1,field2,field3) values(value1,value2,value),(value1,value2,value3),(value1,value2,value3)...
+
+
+
+	UPDATE
+
+	DELETE 
+
+______________________________________________________________________________
+
+1) Display all records from EmployeeNew Table
+
+2) Display empno, name, position,dob,salary from EmployeeNew table
+
+3) Display all records whose salary more than 90000
+
+4) Display all records whose gender is MALE
+
+5) Display info whose name contains word 'reddy'
+
+6) Display info whose name ends with 'simha'
+
+7) Displya info whose position is 'TL'
+
+8) Display info whose position is either 'TL' or 'Manager'
+
+9) Display info whose salary range from 90000 to 100000
+
+10) Display Manager name by position as For TL manager is 'Lata' for SWE manager is 'Rajlakshmi'
+		for Manager as 'No Manager'
+
+11) Display info whose name ends with 'a'
+
+12) Display info as whose gender is FEMALE and born before 2000 year
+
+13) Display total no.of records of Employee table
+
+14) Display info whose born in 2000 year
+
+15) Add 5 years to dob and display
