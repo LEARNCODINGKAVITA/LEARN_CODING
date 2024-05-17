@@ -1,0 +1,12 @@
+1) Display all records from Emp table
+
+2) Display all records who have 1 part name
+
+3) Display all records who have 2 part name
+
+4) Display all records who have 3 part name
+
+5) Display all records whose first 2 part name start with same char
+
+6) Display all records whose first 3 parts starts with same char
+
